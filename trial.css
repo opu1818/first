@@ -1,0 +1,43 @@
+table{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+@media(max-width: 700px){
+    table{
+        flex-direction: column;
+    }
+}
+.What-I-Do h2{
+    padding-top: 5px;
+    text-align: left;
+}
+.What-I-Do{
+    width: 90%;
+    display: flex; 
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 5%;
+    justify-content: space-between;
+
+}
+.What-I-Do p{
+    text-align: left;
+    padding-top: 5px;
+}
+@media(max-width: 700px){
+    .What-i-do{
+        flex-direction: column;
+    }
+}
+img{
+    display: block;
+    border: 2px solid white;
+    overflow: hidden;
+    box-shadow: 0 0 4px black;
+}
